@@ -20,7 +20,6 @@ def gitClone():
 def splitFiles():
     for file in os.listdir("."):
         if file.endswith(".json") and not file.startswith(".rest"):
-            file_to_move = file
             print('SPLITTING JSON FILES...')
             split_result = subprocess.call(["python", "json-splitter/src/split_scan_graph_json.py", file], stdout=subprocess.DEVNULL)
             os.rename(file, file+'.split')
