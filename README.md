@@ -7,5 +7,5 @@ A simple python wrapper which will call the Hub Rest API and JSON splitter to pe
 
 Requires the Blackduck Hub Rest API and GIT Python modules:
 
-pip3 install blackduck
-pip3 install gitpython
+> pip3 install blackduck
+> pip3 install gitpython
