@@ -5,6 +5,7 @@ A simple python wrapper which will call the Hub Rest API and JSON splitter to pe
 1. Splits all json files in the directory and renames it to filename.split
 2. Uploads the split scan graph jobs and renames them to uploaded
 
-Requires the Blackduck Hub Rest API bindings to upload:
+Requires the Blackduck Hub Rest API and GIT Python modules:
 
-pip install blackduck
+pip3 install blackduck
+pip3 install gitpython
