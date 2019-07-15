@@ -3,11 +3,7 @@ import os
 import git
 import subprocess
 
-username = "YOURUSER"
-password = "YOURPASS"
-urlbase = "https://YOURHUB"
-
-hub = HubInstance(urlbase, username, password, insecure=True, debug=True)
+hub = HubInstance()
 
 def gitClone():
 #clone the splitter repo
